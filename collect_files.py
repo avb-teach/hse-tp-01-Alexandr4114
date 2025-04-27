@@ -1,9 +1,4 @@
-#Список источников
-# 1) https://habr.com/ru/companies/ruvds/articles/325522/
-# 2) https://pythonworld.ru/moduli/modul-os.html
-# 3) https://docs.python.org/
-# 4) https://docs.python.org/3.12/library/os.path.html
-# 5) https://pythonworld.ru/moduli/modul-shutil.html
+#!/bin/python3
 
 
 import os
