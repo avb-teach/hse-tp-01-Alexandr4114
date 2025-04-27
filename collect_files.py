@@ -1,13 +1,10 @@
-#!/bin/python3
-
-
 import os
 import shutil
 
 
 input = os.environ['input_dir']
 output = os.environ['output_dir']
-os.makedirs(output)
+os.makedirs(output, exist_ok = True)
 same_name = {}
 for folders, subfolders, files in os.walk(input):
     for file_name in files:
