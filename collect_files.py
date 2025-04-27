@@ -1,3 +1,4 @@
+#!/bin/python3
 #Список источников
 # 1) https://habr.com/ru/companies/ruvds/articles/325522/
 # 2) https://pythonworld.ru/moduli/modul-os.html
