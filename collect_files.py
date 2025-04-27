@@ -9,7 +9,6 @@ if max_dep.isdigit():
     max_depth = int(max_dep)
 else:
     max_depth = None
-os.makedirs(output_dir, exist_ok = True)
 dir_counter: dict[str, dict[str, int]] = {}
 for folders, subfolders, files in os.walk(input_dir):
     rel = os.path.relpath(folders, input_dir)
@@ -43,5 +42,4 @@ for folders, subfolders, files in os.walk(input_dir):
             t[file_name] += 1
             root, ext = os.path.splitext(file_name)
             name = root + "_" + str(t[file_name]) + ext  
-        shutil.copy(file_path, os.path.join(dest_dir, name))
-        
+        shutil.copy(file_path, os.path.join(dest_dir, name))       
